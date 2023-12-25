@@ -1,0 +1,30 @@
+.work{
+    padding: 50px 0;
+}
+.work__subtitle{
+    max-width: 650px;
+}
+.speciality{
+    padding-top: 45px;
+}
+.speciality__item {
+    border-bottom: 1px solid #303030;
+    padding: 22px 5px;
+    transition: all .5s ease-in-out;
+}
+.speciality__item:last-child {
+    border-bottom: 1px solid #000;
+}
+.speciality__item:hover {
+    background-color: #D83838;
+    color: #fff;
+    border-bottom: 1px solid #D83838;
+}
+.speciality__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.speciality__txt {
+    font-size: 22px;
+}

@@ -1,0 +1,58 @@
+.feedback{
+    padding: 50px 0;
+    overflow: hidden;
+}
+.feedback__wrapper {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    padding: 60px 80px 80px 35px;
+    overflow: hidden;
+    background-color: #313131;
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.08);
+    z-index: 3;
+    color: #fff;
+}
+.feedback__wrapper::after {
+    max-width: 100%;
+    content: url("../image/line-vektor4.png");
+    position: absolute;
+    bottom: -59%;
+    right: -23%;
+    z-index: -1;
+}
+.feedback__wrapper::before {
+    content: url("../image/hexagon.png");
+    position: absolute;
+    top: -25%;
+    left: -16%;
+    z-index: -1;
+}
+.feedback__title.title{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.feedback__title > span{
+    margin-bottom: 35px;
+    color: #fa3636;
+}
+.feedback__text {
+    font-size: 24px;
+}
+.feedback__text > span{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fa3636;
+}
+.form-feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 22px;
+}
+.form-feedback__input {
+    padding: 20px;
+}
+.form-feedback__btn {
+    margin-right: 0;
+}

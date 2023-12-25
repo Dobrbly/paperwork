@@ -1,0 +1,53 @@
+.target{
+    padding: 50px 0;
+}
+.target__wrapper {
+    display: flex;
+    align-items: center;
+}
+.target__content{
+    width: 650px;
+}
+.target__text{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 45px;
+}
+.target__img{
+    max-width: 100%;
+}
+.projection {
+    background-image: url("../image/bg.jpg");
+    margin-top: 30px;
+}
+.projection__wrapper {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    padding: 68px 10px;
+    color: #000;
+    z-index: 2;
+}
+.projection__wrapper::before {
+    content: url("../image/line-vektor3.png");
+    position: absolute;
+    bottom: 0;
+    left: -15%;
+    width: 1120px;
+    height: 450px;
+    fill: #fff;
+    z-index: -1;
+}
+.projection__inner {
+    margin-left: auto;
+    max-width: 660px;
+    width: 100%;
+    font-size: 22px;
+}
+.projection__title {
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.projection__txt {
+    font-weight: 500;
+}

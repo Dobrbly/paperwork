@@ -1,0 +1,58 @@
+.business{
+    padding: 50px 0;
+}
+.business__case{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    color: #000;
+}
+.business__box{
+    max-width: 250px;
+}
+.business__title{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.business__plus{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.business__before{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.business__subtitle{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+.business__box > hr {
+    height: 3px;
+    max-width: 80%;
+    border: none;
+    background: #B7B7B7;
+}
+.business-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+.business-inner__img > img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.business-inner__subtitle{
+    max-width: 550px;
+}

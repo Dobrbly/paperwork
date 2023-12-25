@@ -1,0 +1,42 @@
+.saving{
+    padding: 50px 0;
+}
+.saving__list {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    padding: 60px 0 0 0;
+    gap: 60px;
+    position: relative;
+    counter-reset: reset-list;
+}
+.saving__list::before {
+    content: url("../image/sircle-vec2.png");
+    position: absolute;
+    bottom: -175px;
+    right: -15%;
+    width: 404px;
+    height: 404px;
+    z-index: -1;
+}
+.saving__item {
+    position: relative;
+    flex-basis: 510px;
+    padding: 32px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.08);
+    z-index: 5;
+}
+.saving__item::before {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    content: counter(reset-list);
+    counter-increment: reset-list;
+    font-weight: 700;
+    font-size: 180px;
+    color: #e0e0e0;
+    line-height: 0.8em;
+    z-index: -1;
+}

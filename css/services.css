@@ -1,0 +1,79 @@
+.services{
+    padding: 0 0 50px 0;
+}
+.services__title{
+    margin-bottom: 45px;
+}
+.services__inner{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.services-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    width: 950px;
+    max-width: 100%;
+    padding: 35px 20px;
+    border: 1px solid #D83838;
+}
+.services-box__content{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.services-box__help{
+    width: 45%;
+}
+.services-box__title{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.services-box__inner{
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+}
+.services-box__price{
+    flex-shrink: 0;
+}
+.services-box__value{
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.services-box__title_sm{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.services-box__list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.services-box__item {
+    list-style: url("../image/circle-red.svg");
+}
+.services-box__item_white {
+    list-style: url("../image/circle-white.svg");
+}
+.services-box_red {
+    background-color: #D83838;
+    color: #fff;
+}
+.services-box__btn.services-box__btn_white.btn {
+    background: #fff;
+    color: #000;
+}
+.services-box__help_position {
+    display: flex;
+    align-items: flex-end;
+}

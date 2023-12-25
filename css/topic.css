@@ -1,0 +1,54 @@
+.topic{
+    padding: 50px 0;
+}
+.topic__subtitle.subtitle{
+    margin-top: 20px;
+}.topic__wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+ }
+
+.topic__wrapper::before {
+    content: '';
+    position: absolute;
+    bottom: -40%;
+    left: 35%;
+    background-image: url(../image/line-vektor2.png);
+    width: 1119px;
+    height: 460px;
+    z-index: -1;
+}
+.topic__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
+.topic__img {
+    margin-bottom: 5px;
+}
+.topic__item > span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.topic__btn {
+    padding: 10px 16px;
+    margin-right: 0;
+}
+.topic__form {
+    display: flex;
+    justify-content: space-around;
+    background: #313131;
+    padding: 20px;
+    gap: 35px;
+}
+.topic__form > input{
+    padding: 0 10px;
+}
+.topic__input_txt {
+    max-width: 340px;
+    width: 100%;
+    padding: 10px;
+}
