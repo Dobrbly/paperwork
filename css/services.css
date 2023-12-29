@@ -73,6 +73,9 @@
     background: #fff;
     color: #000;
 }
+.services-box__btn.services-box__btn_white.btn:hover{
+    background-color: #b7b6b6;
+}
 .services-box__help_position {
     display: flex;
     align-items: flex-end;

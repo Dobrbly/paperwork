@@ -6,7 +6,7 @@
     display: flex;
     gap: 40px;
     position: relative;
-    padding: 60px 80px 80px 35px;
+    padding: 60px 35px 80px 35px;
     overflow: hidden;
     background-color: #313131;
     box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.08);

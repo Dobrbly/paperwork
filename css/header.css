@@ -1,6 +1,6 @@
 .header{
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .header::after{
     content: '';
@@ -22,7 +22,7 @@
     justify-content: space-between;
     padding: 15px 0;
 }
-.header__title{
+.header__title.title{
     font-size: 65px;
     margin: 30px 0;
 }

@@ -4,14 +4,15 @@
 .business__case{
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
     flex-wrap: wrap;
     gap: 50px;
-    text-align: center;
     color: #000;
 }
 .business__box{
-    max-width: 250px;
+    width: 250px;
+    max-width: 100%;
 }
 .business__title{
     font-size: 96px;

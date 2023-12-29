@@ -18,11 +18,9 @@
         <header class="header">
             <div class="container header__container">
                 <div class="header__top">
-                    <div class="header__logo logo">
-                        <a href="#">
-                            <img src="./image/logo.svg" alt="Логогтип Письменная работа">
-                        </a>
-                    </div>
+                    <a href="#" class="header__logo logo">
+                        <img src="./image/logo.svg" alt="Логогтип Письменная работа">
+                    </a>
                     <nav class="header__navigation navigation">
                         <ul class="header__list navigation__list">
                             <li class="header__item navigation__item">
@@ -88,8 +86,8 @@
                         Перезвоним, проконсультируем по всем вопросам
                     </p>
                     <form class="form-feedback feedback__form__feedback modal__form">
-                        <input type="text" class="form-feedback__input modal__input" placeholder="Ваше имя">
-                        <input type="text" class="form-feedback__input modal__input" placeholder="+7 999 999 99 99">
+                        <input name="name" type="text" class="form-feedback__input modal__input" placeholder="Ваше имя">
+                        <input name="phone" type="text" class="form-feedback__input modal__input" placeholder="+7 999 999 99 99">
                         <a href="" class="form-feedback__btn btn modal__btn">
                             Жду звонка
                         </a>
@@ -436,7 +434,7 @@
                     <form action="#" class="topic__form">
                         <input class="topic__input_name" type="text" placeholder="Ваше имя" required>
                         <input class="topic__input_phone" type="text" placeholder=" +7 999 999 99 99" required>
-                        <textarea class="topic__input_txt" maxlength="250" placeholder="Какая у вас специальность, сроки,наброски. Max 250 символов" required></textarea>
+                        <input class="topic__input_txt" type="text" maxlength="250" placeholder="Специальность, сроки,наброски." required></input>
                         <a class="topic__btn btn" href="#">Проконсультироваться</a>
                     </form>
                 </div>
@@ -563,5 +561,6 @@
             </div>
         </footer>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>

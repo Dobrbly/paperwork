@@ -35,7 +35,7 @@
     counter-increment: my-counter;
 }
 .choice__item:nth-child(4n-1) {
-    margin-left: 30px;
+    margin-left: 75px;
 }
 .choice__txt {
     position: absolute;

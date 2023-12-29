@@ -10,6 +10,7 @@
     border-radius: 50%;
     background-color: #D83838;
     cursor: pointer;
+    z-index: 100;
 }
 .burger > span {
     width: 24px;

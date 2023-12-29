@@ -13,7 +13,7 @@
     font-weight: 500;
     margin-top: 45px;
 }
-.target__img{
+.target__img > img{
     max-width: 100%;
 }
 .projection {
